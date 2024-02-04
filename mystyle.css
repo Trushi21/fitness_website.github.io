@@ -1,0 +1,75 @@
+body {
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_1280.jpg');
+    height: 4522px;
+    color: white;
+    height: 3456px;
+}
+
+.left {
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 150px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    border: 2px solid green;
+    display: block;
+    width: 59%;
+    margin: 12px auto;
+    padding: 6px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    border: 2px solid blue;
+    top: 20px;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 5px 14px;
+    border-radius: 15px;
+    border: 2px solid grey;
+}
+
+.btn:hover {
+    background-color: rgb(85, 84, 84);
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
